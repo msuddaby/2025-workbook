@@ -54,13 +54,13 @@ include "../includes/header.php";
                             //     echo "</div>";
                             // }
 
-
+                            echo $_SERVER["PHP_SELF"];
                             // Use alternative syntax for control structures
                             for ($i = 1; $i <= 10; $i++) :
                             ?>
                                 <div class="mb-3">
                                     <label for="number<?php echo $i ?>">Number <?php echo $i ?></label>
-                                    <input type="number" class="form-control" id="number<?php echo $i ?>" name="number<?php echo $i ?>" placeholder="Enter a number" value="<?php echo rand(1, 100) ?>" />
+                                    <input type="number" class="form-control" id="number<?php echo $i ?>" name="number<?php echo $i ?>" placeholder="Enter a number" required value="<?php echo rand(1, 100) ?>" />
                                 </div>
                             <?php
                             endfor;
