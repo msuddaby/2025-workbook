@@ -1,13 +1,15 @@
 <?php
 //Mean, Median and Mode calculator
-include "../../includes/header.php";
+include "../includes/header.php";
 
 
 ?>
 
 
 <body>
-    <h1>Mean, Median and Mode calculator</h1>
+    <div class="container">
+        <h1>Mean, Median and Mode calculator</h1>
+    </div>
 </body>
 
 
