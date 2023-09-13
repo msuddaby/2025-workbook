@@ -14,6 +14,7 @@ include "../includes/header.php";
                 <h1 class="mb-5 text-center">Mean, Median, &amp; Mode Calculator</h1>
                 <div class="row">
                     <div class="col-md-6">
+                        <?php include "process.php" ?>
                         <aside class="card">
                             <div class="card-header bg-info">
                                 <h2>What are Mean, Median, and Mode?</h2>
